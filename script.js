@@ -6,7 +6,7 @@
       const NODES = {
         saleGoods: {
           value: 225747,
-          label: `Sale of goods \r\n £225.7M`
+          label: `Sale of goods £225.7M`
         },
         turnover: {
           value: 225747,
@@ -36,7 +36,7 @@
           role: 'style'
         }); // annotation role col.
         data.addRows([
-          ['UK & rest of the world £167.6M', NODES.saleGoods.label, 167538, undefined],
+          ['UK & RoW £167.6M', NODES.saleGoods.label, 167538, undefined],
           ['USA £58.2M', NODES.saleGoods.label, 58209, undefined],
           [NODES.saleGoods.label, NODES.turnover.label, NODES.saleGoods.value, undefined],
           [NODES.turnover.label, 'Cost of sales £147.3M', 147384, 'color: LightCoral'],
